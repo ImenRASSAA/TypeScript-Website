@@ -1,0 +1,650 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/commons.bf8f980cdf0e20e17bba.css">body{font-family:Segoe UI,"Segoe UI Web (West European)",-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif}#top-menu{background-color:#3178c6;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;clear:both;display:flex;justify-content:space-between;height:3rem}#top-menu>.left{display:flex;flex-direction:row}#top-menu>.right{display:flex;flex-direction:row-reverse;justify-self:flex-end}#top-menu .nav{display:inline-block;text-decoration:none}#top-menu .nav ul{padding:0;margin:0}#top-menu .nav-item{font-size:1rem;text-decoration:none;border:1px solid transparent;display:inline-block}#top-menu .nav-item a{display:block;color:#262626;padding:.8rem .5em .7em}</style><meta name="generator" content="Gatsby 2.15.29"/><style>@keyframes css-1{from{opacity:0;}to{opacity:1;}}@keyframes css-2{from{opacity:1;}to{opacity:0;visibility:hidden;}}@keyframes css-3{from{transform:translate3d(-10px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-4{from{transform:translate3d(-20px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-5{from{transform:translate3d(-40px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-6{from{transform:translate3d(-400px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-7{from{transform:translate3d(10px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-8{from{transform:translate3d(20px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-9{from{transform:translate3d(40px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-10{from{transform:translate3d(400px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-11{from{transform:translate3d(0,10px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-12{from{transform:translate3d(0,20px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-13{from{transform:translate3d(0,-10px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-14{from{transform:translate3d(0,-20px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-15{from{transform:translate3d(0,0,0);}to{transform:translate3d(10px,0,0);}}@keyframes css-16{from{transform:translate3d(0,0,0);}to{transform:translate3d(20px,0,0);}}@keyframes css-17{from{transform:translate3d(0,0,0);}to{transform:translate3d(40px,0,0);}}@keyframes css-18{from{transform:translate3d(0,0,0);}to{transform:translate3d(400px,0,0);}}@keyframes css-19{from{transform:translate3d(0,0,0);}to{transform:translate3d(-10px,0,0);}}@keyframes css-20{from{transform:translate3d(0,0,0);}to{transform:translate3d(-20px,0,0);}}@keyframes css-21{from{transform:translate3d(0,0,0);}to{transform:translate3d(-40px,0,0);}}@keyframes css-22{from{transform:translate3d(0,0,0);}to{transform:translate3d(-400px,0,0);}}@keyframes css-23{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,-10px,0);}}@keyframes css-24{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,-20px,0);}}@keyframes css-25{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,10px,0);}}@keyframes css-26{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,20px,0);}}@keyframes css-27{from{transform:scale3d(.98,.98,1);}to{transform:scale3d(1,1,1);}}@keyframes css-28{from{transform:scale3d(1,1,1);}to{transform:scale3d(.98,.98,1);}}@keyframes css-29{from{transform:scale3d(1.03,1.03,1);}to{transform:scale3d(1,1,1);}}@keyframes css-30{from{transform:scale3d(1,1,1);}to{transform:scale3d(1.03,1.03,1);}}@keyframes css-31{from{transform:rotateZ(0deg);}to{transform:rotateZ(90deg);}}@keyframes css-32{from{transform:rotateZ(0deg);}to{transform:rotateZ(-90deg);}}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI Light'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI SemiLight'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI SemiBold'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@keyframes css-40{0%{transform:translate(0, 0);animation-timing-function:linear;}78.57%{transform:translate(0, 0);animation-timing-function:cubic-bezier(0.62, 0, 0.56, 1);}82.14%{transform:translate(0, -5px);animation-timing-function:cubic-bezier(0.58, 0, 0, 1);}84.88%{transform:translate(0, 9px);animation-timing-function:cubic-bezier(1, 0, 0.56, 1);}88.1%{transform:translate(0, -2px);animation-timing-function:cubic-bezier(0.58, 0, 0.67, 1);}90.12%{transform:translate(0, 0);animation-timing-function:linear;}100%{transform:translate(0, 0);}}@keyframes css-41{0%{transform: scale(0);animation-timing-function:linear;}14.29%{transform:scale(0);animation-timing-function:cubic-bezier(0.84, 0, 0.52, 0.99);}16.67%{transform:scale(1.15);animation-timing-function:cubic-bezier(0.48, -0.01, 0.52, 1.01);}19.05%{transform:scale(0.95);animation-timing-function:cubic-bezier(0.48, 0.02, 0.52, 0.98);}21.43%{transform:scale(1);animation-timing-function:linear;}42.86%{transform:scale(1);animation-timing-function:cubic-bezier(0.48, -0.02, 0.52, 1.02);}45.71%{transform:scale(0.8);animation-timing-function:cubic-bezier(0.48, 0.01, 0.52, 0.99);}50%{transform:scale(1);animation-timing-function:linear;}90.12%{transform:scale(1);animation-timing-function:cubic-bezier(0.48, -0.02, 0.52, 1.02);}92.98%{transform:scale(0.8);animation-timing-function:cubic-bezier(0.48, 0.01, 0.52, 0.99);}97.26%{transform:scale(1);animation-timing-function:linear;}100%{transform:scale(1);}}@keyframes css-42{0%{transform:rotate(0deg);animation-timing-function:linear;}83.33%{transform: rotate(0deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}83.93%{transform:rotate(15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}84.52%{transform:rotate(-15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}85.12%{transform:rotate(15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}85.71%{transform:rotate(-15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}86.31%{transform:rotate(0deg);animation-timing-function:linear;}100%{transform:rotate(0deg);}}@keyframes css-43{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}@keyframes css-44{0%{left:-30%;}100%{left:100%;}}@keyframes css-45{100%{right:-30%;}0%{right:100%;}}@keyframes css-46{0%{transform:translateX(-100%);}100%{transform:translateX(100%);}}@keyframes css-47{100%{transform:translateX(-100%);}0%{transform:translateX(100%);}}@keyframes css-48{0%{opacity:0;animation-timing-function:cubic-bezier(.1,.9,.2,1);transform:scale3d(.90,.90,.90);}100%{opacity:1;transform:scale3d(1,1,1);}}.css-0{font-family:'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-size:20px;font-weight:600;display:inline;color:white;moz-osx-font-smoothing:grayscale;webkit-font-smoothing:antialiased;text-decoration:none;}</style><title data-react-helmet="true"></title><link data-react-helmet="true" rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css"/><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link as="script" rel="preload" href="/app-3354f61dd204e18bf7a1.js"/><link as="script" rel="preload" href="/component---src-templates-handbook-tsx-dd1a17369067343d752e.js"/><link as="script" rel="preload" href="/commons-0fc496a32fb311d107ef.js"/><link as="script" rel="preload" href="/webpack-runtime-4eece4e218629fabe83d.js"/><link as="fetch" rel="preload" href="/page-data/docs/handbook/release-notes/typescript-2-0.html/page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div><header dir="ltr"><div id="top-menu"><div class="left"><a href="/" aria-label="TypeScript Home Page" style="text-decoration:none"><svg style="margin-left:1rem;margin-top:0.55rem;margin-right:1rem" fill="none" height="26" viewBox="0 0 27 26" width="27" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m.98608 0h24.32332c.5446 0 .9861.436522.9861.975v24.05c0 .5385-.4415.975-.9861.975h-24.32332c-.544597 0-.98608-.4365-.98608-.975v-24.05c0-.538478.441483-.975.98608-.975zm13.63142 13.8324v-2.1324h-9.35841v2.1324h3.34111v9.4946h2.6598v-9.4946zm1.0604 9.2439c.4289.2162.9362.3784 1.5218.4865.5857.1081 1.2029.1622 1.8518.1622.6324 0 1.2331-.0595 1.8023-.1784.5691-.1189 1.0681-.3149 1.497-.5879s.7685-.6297 1.0187-1.0703.3753-.9852.3753-1.6339c0-.4703-.0715-.8824-.2145-1.2365-.1429-.3541-.3491-.669-.6186-.9447-.2694-.2757-.5925-.523-.9692-.7419s-.8014-.4257-1.2743-.6203c-.3465-.1406-.6572-.2771-.9321-.4095-.275-.1324-.5087-.2676-.7011-.4054-.1925-.1379-.3409-.2838-.4454-.4379-.1045-.154-.1567-.3284-.1567-.523 0-.1784.0467-.3392.1402-.4824.0935-.1433.2254-.2663.3959-.369s.3794-.1824.6269-.2392c.2474-.0567.5224-.0851.8248-.0851.22 0 .4523.0162.697.0486.2447.0325.4908.0825.7382.15.2475.0676.4881.1527.7218.2555.2337.1027.4495.2216.6475.3567v-2.4244c-.4015-.1514-.84-.2636-1.3157-.3365-.4756-.073-1.0214-.1095-1.6373-.1095-.6268 0-1.2207.0662-1.7816.1987-.5609.1324-1.0544.3392-1.4806.6203s-.763.6392-1.0104 1.0743c-.2475.4352-.3712.9555-.3712 1.5609 0 .7731.2268 1.4326.6805 1.9785.4537.546 1.1424 1.0082 2.0662 1.3866.363.146.7011.2892 1.0146.4298.3134.1405.5842.2865.8124.4378.2282.1514.4083.3162.5403.4946s.198.3811.198.6082c0 .1676-.0413.323-.1238.4662-.0825.1433-.2076.2676-.3753.373s-.3766.1879-.6268.2473c-.2502.0595-.5431.0892-.8785.0892-.5719 0-1.1383-.0986-1.6992-.2959-.5608-.1973-1.0805-.4933-1.5589-.8879z" fill="#fff" fill-rule="evenodd"></path></svg><span class="css-0">TypeScript</span></a><nav><ul><li class="nav-item"><a style="text-decoration:none;color:white" href="/docs">Documentation</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/index.html#download-links">Download</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/community">Connect</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/play">Playground</a></li></ul></nav></div><div class="right"><nav><ul><li class="nav-item"><a style="text-decoration:none;color:white" href="/index.html#download-links">SEARCH</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/community"><svg fill="none" height="12" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" fill="#fff" r="6"></circle></svg></a></li><li class="nav-item"><a style="text-decoration:none;color:white;font-size:1rem" href="/play">en</a></li></ul></nav></div></div></header><main><div class="ms-depth-4" style="background-color:white;max-width:960px;margin:1rem auto;padding:2rem"><div><p>{% raw %}## Null- and undefined-aware types</p>
+<p>TypeScript has two special types, Null and Undefined, that have the values <code class="language-text">null</code> and <code class="language-text">undefined</code> respectively.
+Previously it was not possible to explicitly name these types, but <code class="language-text">null</code> and <code class="language-text">undefined</code> may now be used as type names regardless of type checking mode.</p>
+<p>The type checker previously considered <code class="language-text">null</code> and <code class="language-text">undefined</code> assignable to anything.
+Effectively, <code class="language-text">null</code> and <code class="language-text">undefined</code> were valid values of <em>every</em> type and it wasn’t possible to specifically exclude them (and therefore not possible to detect erroneous use of them).</p>
+<h2><code class="language-text">--strictNullChecks</code></h2>
+<p><code class="language-text">--strictNullChecks</code> switches to a new strict null checking mode.</p>
+<p>In strict null checking mode, the <code class="language-text">null</code> and <code class="language-text">undefined</code> values are <em>not</em> in the domain of every type and are only assignable to themselves and <code class="language-text">any</code> (the one exception being that <code class="language-text">undefined</code> is also assignable to <code class="language-text">void</code>).
+So, whereas <code class="language-text">T</code> and <code class="language-text">T | undefined</code> are considered synonymous in regular type checking mode (because <code class="language-text">undefined</code> is considered a subtype of any <code class="language-text">T</code>), they are different types in strict type checking mode, and only <code class="language-text">T | undefined</code> permits <code class="language-text">undefined</code> values. The same is true for the relationship of <code class="language-text">T</code> to <code class="language-text">T | null</code>.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Compiled with --strictNullChecks</span>
+<span class="token keyword">let</span> x<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> y<span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> undefined<span class="token punctuation">;</span>
+<span class="token keyword">let</span> z<span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token keyword">null</span> <span class="token operator">|</span> undefined<span class="token punctuation">;</span>
+x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+y <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+z <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+x <span class="token operator">=</span> undefined<span class="token punctuation">;</span>  <span class="token comment">// Error</span>
+y <span class="token operator">=</span> undefined<span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+z <span class="token operator">=</span> undefined<span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+x <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>  <span class="token comment">// Error</span>
+y <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>  <span class="token comment">// Error</span>
+z <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+x <span class="token operator">=</span> y<span class="token punctuation">;</span>  <span class="token comment">// Error</span>
+x <span class="token operator">=</span> z<span class="token punctuation">;</span>  <span class="token comment">// Error</span>
+y <span class="token operator">=</span> x<span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+y <span class="token operator">=</span> z<span class="token punctuation">;</span>  <span class="token comment">// Error</span>
+z <span class="token operator">=</span> x<span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+z <span class="token operator">=</span> y<span class="token punctuation">;</span>  <span class="token comment">// Ok</span></code></pre></div>
+<h2>Assigned-before-use checking</h2>
+<p>In strict null checking mode the compiler requires every reference to a local variable of a type that doesn’t include <code class="language-text">undefined</code> to be preceded by an assignment to that variable in every possible preceding code path.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Compiled with --strictNullChecks</span>
+<span class="token keyword">let</span> x<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> y<span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> z<span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> undefined<span class="token punctuation">;</span>
+x<span class="token punctuation">;</span>  <span class="token comment">// Error, reference not preceded by assignment</span>
+y<span class="token punctuation">;</span>  <span class="token comment">// Error, reference not preceded by assignment</span>
+z<span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+y <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+x<span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+y<span class="token punctuation">;</span>  <span class="token comment">// Ok</span></code></pre></div>
+<p>The compiler checks that variables are definitely assigned by performing <em>control flow based type analysis</em>. See later for further details on this topic.</p>
+<h2>Optional parameters and properties</h2>
+<p>Optional parameters and properties automatically have <code class="language-text">undefined</code> added to their types, even when their type annotations don’t specifically include <code class="language-text">undefined</code>.
+For example, the following two types are identical:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Compiled with --strictNullChecks</span>
+<span class="token keyword">type</span> <span class="token function-variable function">T1</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">x<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">number</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token builtin">string</span><span class="token punctuation">;</span>              <span class="token comment">// x has type number | undefined</span>
+<span class="token keyword">type</span> <span class="token function-variable function">T2</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">x<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> undefined</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token builtin">string</span><span class="token punctuation">;</span>  <span class="token comment">// x has type number | undefined</span></code></pre></div>
+<h2>Non-null and non-undefined type guards</h2>
+<p>A property access or a function call produces a compile-time error if the object or function is of a type that includes <code class="language-text">null</code> or <code class="language-text">undefined</code>.
+However, type guards are extended to support non-null and non-undefined checks.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Compiled with --strictNullChecks</span>
+<span class="token keyword">declare</span> <span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">:</span> <span class="token builtin">number</span></span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> x<span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token keyword">null</span> <span class="token operator">|</span> undefined<span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">f</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Ok, type of x is number here</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token function">f</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Error, type of x is number? here</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> a <span class="token operator">=</span> x <span class="token operator">!=</span> <span class="token keyword">null</span> <span class="token operator">?</span> <span class="token function">f</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span>  <span class="token comment">// Type of a is string</span>
+<span class="token keyword">let</span> b <span class="token operator">=</span> x <span class="token operator">&amp;&amp;</span> <span class="token function">f</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Type of b is string | 0 | null | undefined</span></code></pre></div>
+<p>Non-null and non-undefined type guards may use the <code class="language-text">==</code>, <code class="language-text">!=</code>, <code class="language-text">===</code>, or <code class="language-text">!==</code> operator to compare to <code class="language-text">null</code> or <code class="language-text">undefined</code>, as in <code class="language-text">x != null</code> or <code class="language-text">x === undefined</code>.
+The effects on subject variable types accurately reflect JavaScript semantics (e.g. double-equals operators check for both values no matter which one is specified whereas triple-equals only checks for the specified value).</p>
+<h2>Dotted names in type guards</h2>
+<p>Type guards previously only supported checking local variables and parameters.
+Type guards now support checking “dotted names” consisting of a variable or parameter name followed one or more property accesses.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">interface</span> <span class="token class-name">Options</span> <span class="token punctuation">{</span>
+    location<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        x<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+        y<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token parameter">options<span class="token operator">?</span><span class="token punctuation">:</span> Options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>options <span class="token operator">&amp;&amp;</span> options<span class="token punctuation">.</span>location <span class="token operator">&amp;&amp;</span> options<span class="token punctuation">.</span>location<span class="token punctuation">.</span>x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> x <span class="token operator">=</span> options<span class="token punctuation">.</span>location<span class="token punctuation">.</span>x<span class="token punctuation">;</span>  <span class="token comment">// Type of x is number</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Type guards for dotted names also work with user defined type guard functions and the <code class="language-text">typeof</code> and <code class="language-text">instanceof</code> operators and do not depend on the <code class="language-text">--strictNullChecks</code> compiler option.</p>
+<p>A type guard for a dotted name has no effect following an assignment to any part of the dotted name.
+For example, a type guard for <code class="language-text">x.y.z</code> will have no effect following an assignment to <code class="language-text">x</code>, <code class="language-text">x.y</code>, or <code class="language-text">x.y.z</code>.</p>
+<h2>Expression operators</h2>
+<p>Expression operators permit operand types to include <code class="language-text">null</code> and/or <code class="language-text">undefined</code> but always produce values of non-null and non-undefined types.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Compiled with --strictNullChecks</span>
+<span class="token keyword">function</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">,</span> b<span class="token punctuation">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token keyword">null</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>  <span class="token comment">// Produces value of type number</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>The <code class="language-text">&amp;&amp;</code> operator adds <code class="language-text">null</code> and/or <code class="language-text">undefined</code> to the type of the right operand depending on which are present in the type of the left operand, and the <code class="language-text">||</code> operator removes both <code class="language-text">null</code> and <code class="language-text">undefined</code> from the type of the left operand in the resulting union type.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Compiled with --strictNullChecks</span>
+<span class="token keyword">interface</span> <span class="token class-name">Entity</span> <span class="token punctuation">{</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> x<span class="token punctuation">:</span> Entity <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> s <span class="token operator">=</span> x <span class="token operator">&amp;&amp;</span> x<span class="token punctuation">.</span>name<span class="token punctuation">;</span>  <span class="token comment">// s is of type string | null</span>
+<span class="token keyword">let</span> y <span class="token operator">=</span> x <span class="token operator">||</span> <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">"test"</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>  <span class="token comment">// y is of type Entity</span></code></pre></div>
+<h2>Type widening</h2>
+<p>The <code class="language-text">null</code> and <code class="language-text">undefined</code> types are <em>not</em> widened to <code class="language-text">any</code> in strict null checking mode.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">let</span> z <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>  <span class="token comment">// Type of z is null</span></code></pre></div>
+<p>In regular type checking mode the inferred type of <code class="language-text">z</code> is <code class="language-text">any</code> because of widening, but in strict null checking mode the inferred type of <code class="language-text">z</code> is <code class="language-text">null</code> (and therefore, absent a type annotation, <code class="language-text">null</code> is the only possible value for <code class="language-text">z</code>).</p>
+<h2>Non-null assertion operator</h2>
+<p>A new <code class="language-text">!</code> post-fix expression operator may be used to assert that its operand is non-null and non-undefined in contexts where the type checker is unable to conclude that fact.
+Specifically, the operation <code class="language-text">x!</code> produces a value of the type of <code class="language-text">x</code> with <code class="language-text">null</code> and <code class="language-text">undefined</code> excluded.
+Similar to type assertions of the forms <code class="language-text">&lt;T&gt;x</code> and <code class="language-text">x as T</code>, the <code class="language-text">!</code> non-null assertion operator is simply removed in the emitted JavaScript code.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Compiled with --strictNullChecks</span>
+<span class="token keyword">function</span> <span class="token function">validateEntity</span><span class="token punctuation">(</span><span class="token parameter">e<span class="token operator">?</span><span class="token punctuation">:</span> Entity</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Throw exception if e is null or invalid entity</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">processEntity</span><span class="token punctuation">(</span><span class="token parameter">e<span class="token operator">?</span><span class="token punctuation">:</span> Entity</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">validateEntity</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> s <span class="token operator">=</span> e<span class="token operator">!</span><span class="token punctuation">.</span>name<span class="token punctuation">;</span>  <span class="token comment">// Assert that e is non-null and access name</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Compatibility</h2>
+<p>The new features are designed such that they can be used in both strict null checking mode and regular type checking mode.
+In particular, the <code class="language-text">null</code> and <code class="language-text">undefined</code> types are automatically erased from union types in regular type checking mode (because they are subtypes of all other types), and the <code class="language-text">!</code> non-null assertion expression operator is permitted but has no effect in regular type checking mode. Thus, declaration files that are updated to use null- and undefined-aware types can still be used in regular type checking mode for backwards compatibility.</p>
+<p>In practical terms, strict null checking mode requires that all files in a compilation are null- and undefined-aware.</p>
+<h2>Control flow based type analysis</h2>
+<p>TypeScript 2.0 implements a control flow-based type analysis for local variables and parameters.
+Previously, the type analysis performed for type guards was limited to <code class="language-text">if</code> statements and <code class="language-text">?:</code> conditional expressions and didn’t include effects of assignments and control flow constructs such as <code class="language-text">return</code> and <code class="language-text">break</code> statements.
+With TypeScript 2.0, the type checker analyses all possible flows of control in statements and expressions to produce the most specific type possible (the <em>narrowed type</em>) at any given location for a local variable or parameter that is declared to have a union type.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">:</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token builtin">boolean</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> x <span class="token operator">===</span> <span class="token string">"string"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        x<span class="token punctuation">;</span> <span class="token comment">// type of x is string here</span>
+        x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        x<span class="token punctuation">;</span> <span class="token comment">// type of x is number here</span>
+    <span class="token punctuation">}</span>
+    x<span class="token punctuation">;</span> <span class="token comment">// type of x is number | boolean here</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">bar</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">:</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">number</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> x <span class="token operator">===</span> <span class="token string">"number"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    x<span class="token punctuation">;</span> <span class="token comment">// type of x is string here</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Control flow based type analysis is particularly relevant in <code class="language-text">--strictNullChecks</code> mode because nullable types are represented using union types:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">:</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token keyword">null</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    x<span class="token punctuation">;</span> <span class="token comment">// type of x is string in remainder of function</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Furthermore, in <code class="language-text">--strictNullChecks</code> mode, control flow based type analysis includes <em>definite assignment analysis</em> for local variables of types that don’t permit the value <code class="language-text">undefined</code>.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">mumble</span><span class="token punctuation">(</span><span class="token parameter">check<span class="token punctuation">:</span> <span class="token builtin">boolean</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> x<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span> <span class="token comment">// Type doesn't permit undefined</span>
+    x<span class="token punctuation">;</span> <span class="token comment">// Error, x is undefined</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>check<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        x<span class="token punctuation">;</span> <span class="token comment">// Ok</span>
+    <span class="token punctuation">}</span>
+    x<span class="token punctuation">;</span> <span class="token comment">// Error, x is possibly undefined</span>
+    x <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    x<span class="token punctuation">;</span> <span class="token comment">// Ok</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Tagged union types</h2>
+<p>TypeScript 2.0 implements support for tagged (or discriminated) union types.
+Specifically, the TS compiler now support type guards that narrow union types based on tests of a discriminant property and furthermore extend that capability to <code class="language-text">switch</code> statements.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">interface</span> <span class="token class-name">Square</span> <span class="token punctuation">{</span>
+    kind<span class="token punctuation">:</span> <span class="token string">"square"</span><span class="token punctuation">;</span>
+    size<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">interface</span> <span class="token class-name">Rectangle</span> <span class="token punctuation">{</span>
+    kind<span class="token punctuation">:</span> <span class="token string">"rectangle"</span><span class="token punctuation">;</span>
+    width<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    height<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">interface</span> <span class="token class-name">Circle</span> <span class="token punctuation">{</span>
+    kind<span class="token punctuation">:</span> <span class="token string">"circle"</span><span class="token punctuation">;</span>
+    radius<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Shape <span class="token operator">=</span> Square <span class="token operator">|</span> Rectangle <span class="token operator">|</span> Circle<span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">area</span><span class="token punctuation">(</span><span class="token parameter">s<span class="token punctuation">:</span> Shape</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// In the following switch statement, the type of s is narrowed in each case clause</span>
+    <span class="token comment">// according to the value of the discriminant property, thus allowing the other properties</span>
+    <span class="token comment">// of that variant to be accessed without a type assertion.</span>
+    <span class="token keyword">switch</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span>kind<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">case</span> <span class="token string">"square"</span><span class="token punctuation">:</span> <span class="token keyword">return</span> s<span class="token punctuation">.</span>size <span class="token operator">*</span> s<span class="token punctuation">.</span>size<span class="token punctuation">;</span>
+        <span class="token keyword">case</span> <span class="token string">"rectangle"</span><span class="token punctuation">:</span> <span class="token keyword">return</span> s<span class="token punctuation">.</span>width <span class="token operator">*</span> s<span class="token punctuation">.</span>height<span class="token punctuation">;</span>
+        <span class="token keyword">case</span> <span class="token string">"circle"</span><span class="token punctuation">:</span> <span class="token keyword">return</span> Math<span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> s<span class="token punctuation">.</span>radius <span class="token operator">*</span> s<span class="token punctuation">.</span>radius<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">test1</span><span class="token punctuation">(</span><span class="token parameter">s<span class="token punctuation">:</span> Shape</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span>kind <span class="token operator">===</span> <span class="token string">"square"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        s<span class="token punctuation">;</span>  <span class="token comment">// Square</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        s<span class="token punctuation">;</span>  <span class="token comment">// Rectangle | Circle</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">test2</span><span class="token punctuation">(</span><span class="token parameter">s<span class="token punctuation">:</span> Shape</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span>kind <span class="token operator">===</span> <span class="token string">"square"</span> <span class="token operator">||</span> s<span class="token punctuation">.</span>kind <span class="token operator">===</span> <span class="token string">"rectangle"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    s<span class="token punctuation">;</span>  <span class="token comment">// Circle</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>A <em>discriminant property type guard</em> is an expression of the form <code class="language-text">x.p == v</code>, <code class="language-text">x.p === v</code>, <code class="language-text">x.p != v</code>, or <code class="language-text">x.p !== v</code>, where <code class="language-text">p</code> and <code class="language-text">v</code> are a property and an expression of a string literal type or a union of string literal types.
+The discriminant property type guard narrows the type of <code class="language-text">x</code> to those constituent types of <code class="language-text">x</code> that have a discriminant property <code class="language-text">p</code> with one of the possible values of <code class="language-text">v</code>.</p>
+<p>Note that we currently only support discriminant properties of string literal types.
+We intend to later add support for boolean and numeric literal types.</p>
+<h2>The <code class="language-text">never</code> type</h2>
+<p>TypeScript 2.0 introduces a new primitive type <code class="language-text">never</code>.
+The <code class="language-text">never</code> type represents the type of values that never occur.
+Specifically, <code class="language-text">never</code> is the return type for functions that never return and <code class="language-text">never</code> is the type of variables under type guards that are never true.</p>
+<p>The <code class="language-text">never</code> type has the following characteristics:</p>
+<ul>
+<li><code class="language-text">never</code> is a subtype of and assignable to every type.</li>
+<li>No type is a subtype of or assignable to <code class="language-text">never</code> (except <code class="language-text">never</code> itself).</li>
+<li>In a function expression or arrow function with no return type annotation, if the function has no <code class="language-text">return</code> statements, or only <code class="language-text">return</code> statements with expressions of type <code class="language-text">never</code>, and if the end point of the function is not reachable (as determined by control flow analysis), the inferred return type for the function is <code class="language-text">never</code>.</li>
+<li>In a function with an explicit <code class="language-text">never</code> return type annotation, all <code class="language-text">return</code> statements (if any) must have expressions of type <code class="language-text">never</code> and the end point of the function must not be reachable.</li>
+</ul>
+<p>Because <code class="language-text">never</code> is a subtype of every type, it is always omitted from union types and it is ignored in function return type inference as long as there are other types being returned.</p>
+<p>Some examples of functions returning <code class="language-text">never</code>:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Function returning never must have unreachable end point</span>
+<span class="token keyword">function</span> <span class="token function">error</span><span class="token punctuation">(</span><span class="token parameter">message<span class="token punctuation">:</span> <span class="token builtin">string</span></span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token builtin">never</span> <span class="token punctuation">{</span>
+    <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Inferred return type is never</span>
+<span class="token keyword">function</span> <span class="token function">fail</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"Something failed"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Function returning never must have unreachable end point</span>
+<span class="token keyword">function</span> <span class="token function">infiniteLoop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token builtin">never</span> <span class="token punctuation">{</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Some examples of use of functions returning <code class="language-text">never</code>:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token comment">// Inferred return type is number</span>
+<span class="token keyword">function</span> <span class="token function">move1</span><span class="token punctuation">(</span>direction<span class="token punctuation">:</span> <span class="token string">"up"</span> <span class="token operator">|</span> <span class="token string">"down"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">switch</span> <span class="token punctuation">(</span>direction<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">case</span> <span class="token string">"up"</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token keyword">case</span> <span class="token string">"down"</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"Should never get here"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Inferred return type is number</span>
+<span class="token keyword">function</span> <span class="token function">move2</span><span class="token punctuation">(</span>direction<span class="token punctuation">:</span> <span class="token string">"up"</span> <span class="token operator">|</span> <span class="token string">"down"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> direction <span class="token operator">===</span> <span class="token string">"up"</span> <span class="token operator">?</span> <span class="token number">1</span> <span class="token punctuation">:</span>
+        direction <span class="token operator">===</span> <span class="token string">"down"</span> <span class="token operator">?</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token punctuation">:</span>
+        <span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"Should never get here"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Inferred return type is T</span>
+<span class="token keyword">function</span> check<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span><span class="token punctuation">(</span>x<span class="token punctuation">:</span> <span class="token constant">T</span> <span class="token operator">|</span> undefined<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> x <span class="token operator">||</span> <span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"Undefined value"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Because <code class="language-text">never</code> is assignable to every type, a function returning <code class="language-text">never</code> can be used when a callback returning a more specific type is required:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token function-variable function">cb</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> s <span class="token operator">=</span> <span class="token function">cb</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token string">"hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token function">fail</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<h2>Read-only properties and index signatures</h2>
+<p>A property or index signature can now be declared with the <code class="language-text">readonly</code> modifier is considered read-only.</p>
+<p>Read-only properties may have initializers and may be assigned to in constructors within the same class declaration, but otherwise assignments to read-only properties are disallowed.</p>
+<p>In addition, entities are <em>implicitly</em> read-only in several situations:</p>
+<ul>
+<li>A property declared with a <code class="language-text">get</code> accessor and no <code class="language-text">set</code> accessor is considered read-only.</li>
+<li>In the type of an enum object, enum members are considered read-only properties.</li>
+<li>In the type of a module object, exported <code class="language-text">const</code> variables are considered read-only properties.</li>
+<li>An entity declared in an <code class="language-text">import</code> statement is considered read-only.</li>
+<li>An entity accessed through an ES2015 namespace import is considered read-only (e.g. <code class="language-text">foo.x</code> is read-only when <code class="language-text">foo</code> is declared as <code class="language-text">import * as foo from &quot;foo&quot;</code>).</li>
+</ul>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">interface</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
+    <span class="token keyword">readonly</span> x<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    <span class="token keyword">readonly</span> y<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> p1<span class="token punctuation">:</span> Point <span class="token operator">=</span> <span class="token punctuation">{</span> x<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span> y<span class="token punctuation">:</span> <span class="token number">20</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+p1<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>  <span class="token comment">// Error, p1.x is read-only</span>
+
+<span class="token keyword">var</span> p2 <span class="token operator">=</span> <span class="token punctuation">{</span> x<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> y<span class="token punctuation">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> p3<span class="token punctuation">:</span> Point <span class="token operator">=</span> p2<span class="token punctuation">;</span>  <span class="token comment">// Ok, read-only alias for p2</span>
+p3<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>  <span class="token comment">// Error, p3.x is read-only</span>
+p2<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>  <span class="token comment">// Ok, but also changes p3.x because of aliasing</span></code></pre></div>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Foo</span> <span class="token punctuation">{</span>
+    <span class="token keyword">readonly</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">readonly</span> b<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    <span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>b <span class="token operator">=</span> <span class="token string">"hello"</span><span class="token punctuation">;</span>  <span class="token comment">// Assignment permitted in constructor</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">let</span> a<span class="token punctuation">:</span> <span class="token builtin">Array</span><span class="token operator">&lt;</span><span class="token builtin">number</span><span class="token operator">></span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> b<span class="token punctuation">:</span> ReadonlyArray<span class="token operator">&lt;</span><span class="token builtin">number</span><span class="token operator">></span> <span class="token operator">=</span> a<span class="token punctuation">;</span>
+b<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>      <span class="token comment">// Error, elements are read-only</span>
+b<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// Error, no push method (because it mutates array)</span>
+b<span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>  <span class="token comment">// Error, length is read-only</span>
+a <span class="token operator">=</span> b<span class="token punctuation">;</span>         <span class="token comment">// Error, mutating methods are missing</span></code></pre></div>
+<h2>Specifying the type of <code class="language-text">this</code> for functions</h2>
+<p>Following up on specifying the type of <code class="language-text">this</code> in a class or an interface, functions and methods can now declare the type of <code class="language-text">this</code> they expect.</p>
+<p>By default the type of <code class="language-text">this</code> inside a function is <code class="language-text">any</code>.
+Starting with TypeScript 2.0, you can provide an explicit <code class="language-text">this</code> parameter.
+<code class="language-text">this</code> parameters are fake parameters that come first in the parameter list of a function:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token parameter"><span class="token keyword">this</span><span class="token punctuation">:</span> <span class="token keyword">void</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// make sure `this` is unusable in this standalone function</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2><code class="language-text">this</code> parameters in callbacks</h2>
+<p>Libraries can also use <code class="language-text">this</code> parameters to declare how callbacks will be invoked.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">interface</span> <span class="token class-name">UIElement</span> <span class="token punctuation">{</span>
+    <span class="token function">addClickListener</span><span class="token punctuation">(</span><span class="token function-variable function">onclick</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token keyword">this</span><span class="token punctuation">:</span> <span class="token keyword">void</span><span class="token punctuation">,</span> e<span class="token punctuation">:</span> Event</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">void</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token keyword">void</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><code class="language-text">this: void</code> means that <code class="language-text">addClickListener</code> expects <code class="language-text">onclick</code> to be a function that does not require a <code class="language-text">this</code> type.</p>
+<p>Now if you annotate calling code with <code class="language-text">this</code>:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Handler</span> <span class="token punctuation">{</span>
+    info<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    <span class="token function">onClickBad</span><span class="token punctuation">(</span><span class="token parameter"><span class="token keyword">this</span><span class="token punctuation">:</span> Handler<span class="token punctuation">,</span> e<span class="token punctuation">:</span> Event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// oops, used this here. using this callback would crash at runtime</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>info <span class="token operator">=</span> e<span class="token punctuation">.</span>message<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> h <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Handler</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+uiElement<span class="token punctuation">.</span><span class="token function">addClickListener</span><span class="token punctuation">(</span>h<span class="token punctuation">.</span>onClickBad<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// error!</span></code></pre></div>
+<h2><code class="language-text">--noImplicitThis</code></h2>
+<p>A new flag is also added in TypeScript 2.0 to flag all uses of <code class="language-text">this</code> in functions without an explicit type annotation.</p>
+<h2>Glob support in <code class="language-text">tsconfig.json</code></h2>
+<p>Glob support is here!! Glob support has been <a href="https://github.com/Microsoft/TypeScript/issues/1927">one of the most requested features</a>.</p>
+<p>Glob-like file patterns are supported two properties <code class="language-text">&quot;include&quot;</code> and <code class="language-text">&quot;exclude&quot;</code>.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"compilerOptions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"commonjs"</span><span class="token punctuation">,</span>
+        <span class="token property">"noImplicitAny"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"removeComments"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"preserveConstEnums"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"outFile"</span><span class="token operator">:</span> <span class="token string">"../../built/local/tsc.js"</span><span class="token punctuation">,</span>
+        <span class="token property">"sourceMap"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"include"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">"src/**/*"</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"exclude"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">"node_modules"</span><span class="token punctuation">,</span>
+        <span class="token string">"**/*.spec.ts"</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>The supported glob wildcards are:</p>
+<ul>
+<li><code class="language-text">*</code> matches zero or more characters (excluding directory separators)</li>
+<li><code class="language-text">?</code> matches any one character (excluding directory separators)</li>
+<li><code class="language-text">**/</code> recursively matches any subdirectory</li>
+</ul>
+<p>If a segment of a glob pattern includes only <code class="language-text">*</code> or <code class="language-text">.*</code>, then only files with supported extensions are included (e.g. <code class="language-text">.ts</code>, <code class="language-text">.tsx</code>, and <code class="language-text">.d.ts</code> by default with <code class="language-text">.js</code> and <code class="language-text">.jsx</code> if <code class="language-text">allowJs</code> is set to true).</p>
+<p>If the <code class="language-text">&quot;files&quot;</code> and <code class="language-text">&quot;include&quot;</code> are both left unspecified, the compiler defaults to including all TypeScript (<code class="language-text">.ts</code>, <code class="language-text">.d.ts</code> and <code class="language-text">.tsx</code>) files in the containing directory and subdirectories except those excluded using the <code class="language-text">&quot;exclude&quot;</code> property. JS files (<code class="language-text">.js</code> and <code class="language-text">.jsx</code>) are also included if <code class="language-text">allowJs</code> is set to true.</p>
+<p>If the <code class="language-text">&quot;files&quot;</code> or <code class="language-text">&quot;include&quot;</code> properties are specified, the compiler will instead include the union of the files included by those two properties.
+Files in the directory specified using the <code class="language-text">&quot;outDir&quot;</code> compiler option are always excluded unless explicitly included via the <code class="language-text">&quot;files&quot;</code> property (even when the ”<code class="language-text">exclude</code>” property is specified).</p>
+<p>Files included using <code class="language-text">&quot;include&quot;</code> can be filtered using the <code class="language-text">&quot;exclude&quot;</code> property.
+However, files included explicitly using the <code class="language-text">&quot;files&quot;</code> property are always included regardless of <code class="language-text">&quot;exclude&quot;</code>.
+The <code class="language-text">&quot;exclude&quot;</code> property defaults to excluding the <code class="language-text">node_modules</code>, <code class="language-text">bower_components</code>, and <code class="language-text">jspm_packages</code> directories when not specified.</p>
+<h2>Module resolution enhancements: BaseUrl, Path mapping, rootDirs and tracing</h2>
+<p>TypeScript 2.0 provides a set of additional module resolution knops to <em>inform</em> the compiler where to find declarations for a given module.</p>
+<p>See <a href="http://www.typescriptlang.org/docs/handbook/module-resolution.html">Module Resolution</a> documentation for more details.</p>
+<h2>Base URL</h2>
+<p>Using a <code class="language-text">baseUrl</code> is a common practice in applications using AMD module loaders where modules are “deployed” to a single folder at run-time.
+All module imports with non-relative names are assumed to be relative to the <code class="language-text">baseUrl</code>.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"compilerOptions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"baseUrl"</span><span class="token operator">:</span> <span class="token string">"./modules"</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Now imports to <code class="language-text">&quot;moduleA&quot;</code> would be looked up in <code class="language-text">./modules/moduleA</code></p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">import</span> <span class="token constant">A</span> <span class="token keyword">from</span> <span class="token string">"moduleA"</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Path mapping</h2>
+<p>Sometimes modules are not directly located under <em>baseUrl</em>.
+Loaders use a mapping configuration to map module names to files at run-time, see <a href="http://requirejs.org/docs/api.html#config-paths">RequireJs documentation</a> and <a href="https://github.com/systemjs/systemjs/blob/master/docs/overview.md#map-config">SystemJS documentation</a>.</p>
+<p>The TypeScript compiler supports the declaration of such mappings using <code class="language-text">&quot;paths&quot;</code> property in <code class="language-text">tsconfig.json</code> files.</p>
+<h5>Example</h5>
+<p>For instance, an import to a module <code class="language-text">&quot;jquery&quot;</code> would be translated at runtime to <code class="language-text">&quot;node_modules/jquery/dist/jquery.slim.min.js&quot;</code>.</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"compilerOptions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"baseUrl"</span><span class="token operator">:</span> <span class="token string">"./node_modules"</span><span class="token punctuation">,</span>
+    <span class="token property">"paths"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"jquery"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"jquery/dist/jquery.slim.min"</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Using <code class="language-text">&quot;paths&quot;</code> also allow for more sophisticated mappings including multiple fall back locations.
+Consider a project configuration where only some modules are available in one location, and the rest are in another.</p>
+<h2>Virtual Directories with <code class="language-text">rootDirs</code></h2>
+<p>Using ‘rootDirs’, you can inform the compiler of the <em>roots</em> making up this “virtual” directory;
+and thus the compiler can resolve relative modules imports within these “virtual” directories <em>as if</em> were merged together in one directory.</p>
+<h5>Example</h5>
+<p>Given this project structure:</p>
+<div class="gatsby-highlight" data-language="tree"><pre class="language-tree"><code class="language-tree"> src
+ └── views
+     └── view1.ts (imports &#39;./template1&#39;)
+     └── view2.ts
+
+ generated
+ └── templates
+         └── views
+             └── template1.ts (imports &#39;./view2&#39;)</code></pre></div>
+<p>A build step will copy the files in <code class="language-text">/src/views</code> and <code class="language-text">/generated/templates/views</code> to the same directory in the output.
+At run-time, a view can expect its template to exist next to it, and thus should import it using a relative name as <code class="language-text">&quot;./template&quot;</code>.</p>
+<p><code class="language-text">&quot;rootDirs&quot;</code> specify a list of <em>roots</em> whose contents are expected to merge at run-time.
+So following our example, the <code class="language-text">tsconfig.json</code> file should look like:</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"compilerOptions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"rootDirs"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">"src/views"</span><span class="token punctuation">,</span>
+      <span class="token string">"generated/templates/views"</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Tracing module resolution</h2>
+<p><code class="language-text">--traceResolution</code> offers a handy way to understand how modules have been resolved by the compiler.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">tsc --traceResolution</code></pre></div>
+<h2>Shorthand ambient module declarations</h2>
+<p>If you don’t want to take the time to write out declarations before using a new module, you can now just use a shorthand declaration to get started quickly.</p>
+<h5>declarations.d.ts</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">declare</span> <span class="token keyword">module</span> <span class="token string">"hot-new-module"</span><span class="token punctuation">;</span></code></pre></div>
+<p>All imports from a shorthand module will have the any type.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">import</span> x<span class="token punctuation">,</span> <span class="token punctuation">{</span>y<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"hot-new-module"</span><span class="token punctuation">;</span>
+<span class="token function">x</span><span class="token punctuation">(</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Wildcard character in module names</h2>
+<p>Importing none-code resources using module loaders extension (e.g. <a href="https://github.com/amdjs/amdjs-api/blob/master/LoaderPlugins.md">AMD</a> or <a href="https://github.com/systemjs/systemjs/blob/master/docs/creating-plugins.md">SystemJS</a>) has not been easy before;
+previously an ambient module declaration had to be defined for each resource.</p>
+<p>TypeScript 2.0 supports the use of the wildcard character (<code class="language-text">*</code>) to declare a “family” of module names;
+this way, a declaration is only required once for an extension, and not for every resource.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">declare</span> <span class="token keyword">module</span> <span class="token string">"*!text"</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> content<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    <span class="token keyword">export</span> <span class="token keyword">default</span> content<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// Some do it the other way around.</span>
+<span class="token keyword">declare</span> <span class="token keyword">module</span> <span class="token string">"json!*"</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> value<span class="token punctuation">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
+    <span class="token keyword">export</span> <span class="token keyword">default</span> value<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Now you can import things that match <code class="language-text">&quot;*!text&quot;</code> or <code class="language-text">&quot;json!*&quot;</code>.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">import</span> fileContent <span class="token keyword">from</span> <span class="token string">"./xyz.txt!text"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> data <span class="token keyword">from</span> <span class="token string">"json!http://example.com/data.json"</span><span class="token punctuation">;</span>
+<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">,</span> fileContent<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>Wildcard module names can be even more useful when migrating from an un-typed code base.
+Combined with Shorthand ambient module declarations, a set of modules can be easily declared as <code class="language-text">any</code>.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">declare</span> <span class="token keyword">module</span> <span class="token string">"myLibrary/*"</span><span class="token punctuation">;</span></code></pre></div>
+<p>All imports to any module under <code class="language-text">myLibrary</code> would be considered to have the type <code class="language-text">any</code> by the compiler;
+thus, shutting down any checking on the shapes or types of these modules.</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">import</span> <span class="token punctuation">{</span> readFile <span class="token punctuation">}</span> <span class="token keyword">from</span> "myLibrary<span class="token operator">/</span>fileSystem<span class="token operator">/</span>readFile`<span class="token punctuation">;</span>
+
+<span class="token function">readFile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// readFile is 'any'</span></code></pre></div>
+<h2>Support for UMD module definitions</h2>
+<p>Some libraries are designed to be used in many module loaders, or with no module loading (global variables).
+These are known as <a href="https://github.com/umdjs/umd">UMD</a> or <a href="http://isomorphic.net">Isomorphic</a> modules.
+These libraries can be accessed through either an import or a global variable.</p>
+<p>For example:</p>
+<h5>math-lib.d.ts</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function">isPrime</span><span class="token punctuation">(</span>x<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">as</span> <span class="token keyword">namespace</span> mathLib<span class="token punctuation">;</span></code></pre></div>
+<p>The library can then be used as an import within modules:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">import</span> <span class="token punctuation">{</span> isPrime <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"math-lib"</span><span class="token punctuation">;</span>
+<span class="token function">isPrime</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+mathLib<span class="token punctuation">.</span><span class="token function">isPrime</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// ERROR: can't use the global definition from inside a module</span></code></pre></div>
+<p>It can also be used as a global variable, but only inside of a script.
+(A script is a file with no imports or exports.)</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts">mathLib<span class="token punctuation">.</span><span class="token function">isPrime</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Optional class properties</h2>
+<p>Optional properties and methods can now be declared in classes, similar to what is already permitted in interfaces.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Bar</span> <span class="token punctuation">{</span>
+    a<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    b<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    g<span class="token operator">?</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>  <span class="token comment">// Body of optional method can be omitted</span>
+    h<span class="token operator">?</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>When compiled in <code class="language-text">--strictNullChecks</code> mode, optional properties and methods automatically have <code class="language-text">undefined</code> included in their type. Thus, the <code class="language-text">b</code> property above is of type <code class="language-text">number | undefined</code> and the <code class="language-text">g</code> method above is of type <code class="language-text">(() =&gt; number) | undefined</code>.
+Type guards can be used to strip away the <code class="language-text">undefined</code> part of the type:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">:</span> Bar</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    x<span class="token punctuation">.</span>a<span class="token punctuation">;</span>  <span class="token comment">// number</span>
+    x<span class="token punctuation">.</span>b<span class="token punctuation">;</span>  <span class="token comment">// number | undefined</span>
+    x<span class="token punctuation">.</span>f<span class="token punctuation">;</span>  <span class="token comment">// () => number</span>
+    x<span class="token punctuation">.</span>g<span class="token punctuation">;</span>  <span class="token comment">// (() => number) | undefined</span>
+    <span class="token keyword">let</span> f1 <span class="token operator">=</span> x<span class="token punctuation">.</span><span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">// number</span>
+    <span class="token keyword">let</span> g1 <span class="token operator">=</span> x<span class="token punctuation">.</span>g <span class="token operator">&amp;&amp;</span> x<span class="token punctuation">.</span><span class="token function">g</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// number | undefined</span>
+    <span class="token keyword">let</span> g2 <span class="token operator">=</span> x<span class="token punctuation">.</span>g <span class="token operator">?</span> x<span class="token punctuation">.</span><span class="token function">g</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>  <span class="token comment">// number</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Private and Protected Constructors</h2>
+<p>A class constructor may be marked <code class="language-text">private</code> or <code class="language-text">protected</code>.
+A class with private constructor cannot be instantiated outside the class body, and cannot be extended.
+A class with protected constructor cannot be instantiated outside the class body, but can be extended.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Singleton</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span> <span class="token keyword">static</span> instance<span class="token punctuation">:</span> Singleton<span class="token punctuation">;</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
+
+    <span class="token keyword">static</span> <span class="token function">getInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>Singleton<span class="token punctuation">.</span>instance<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            Singleton<span class="token punctuation">.</span>instance <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Singleton</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> Singleton<span class="token punctuation">.</span>instance<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> e <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Singleton</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Error: constructor of 'Singleton' is private.</span>
+<span class="token keyword">let</span> v <span class="token operator">=</span> Singleton<span class="token punctuation">.</span><span class="token function">getInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Abstract properties and accessors</h2>
+<p>An abstract class can declare abstract properties and/or accessors.
+Any sub class will need to declare the abstract properties or be marked as abstract.
+Abstract properties cannot have an initializer.
+Abstract accessors cannot have bodies.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">Base</span> <span class="token punctuation">{</span>
+    <span class="token keyword">abstract</span> name<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    <span class="token keyword">abstract</span> <span class="token keyword">get</span> <span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">abstract</span> <span class="token keyword">set</span> <span class="token function">value</span><span class="token punctuation">(</span>v<span class="token punctuation">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Derived</span> <span class="token keyword">extends</span> <span class="token class-name">Base</span> <span class="token punctuation">{</span>
+    name <span class="token operator">=</span> <span class="token string">"derived"</span><span class="token punctuation">;</span>
+
+    value <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Implicit index signatures</h2>
+<p>An object literal type is now assignable to a type with an index signature if all known properties in the object literal are assignable to that index signature. This makes it possible to pass a variable that was initialized with an object literal as parameter to a function that expects a map or dictionary:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">httpService</span><span class="token punctuation">(</span><span class="token parameter">path<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span> headers<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token punctuation">[</span>x<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">"Content-Type"</span><span class="token punctuation">:</span> <span class="token string">"application/x-www-form-urlencoded"</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token function">httpService</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token string">"Content-Type"</span><span class="token punctuation">:</span> <span class="token string">"application/x-www-form-urlencoded"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Ok</span>
+<span class="token function">httpService</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">,</span> headers<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Now ok, previously wasn't</span></code></pre></div>
+<h2>Including built-in type declarations with <code class="language-text">--lib</code></h2>
+<p>Getting to ES6/ES2015 built-in API declarations were only limited to <code class="language-text">target: ES6</code>.
+Enter <code class="language-text">--lib</code>; with <code class="language-text">--lib</code> you can specify a list of built-in API declaration groups that you can chose to include in your project.
+For instance, if you expect your runtime to have support for <code class="language-text">Map</code>, <code class="language-text">Set</code> and <code class="language-text">Promise</code> (e.g. most evergreen browsers today), just include <code class="language-text">--lib es2015.collection,es2015.promise</code>.
+Similarly you can exclude declarations you do not want to include in your project, e.g. DOM if you are working on a node project using <code class="language-text">--lib es5,es6</code>.</p>
+<p>Here is a list of available API groups:</p>
+<ul>
+<li>dom</li>
+<li>webworker</li>
+<li>es5</li>
+<li>es6 / es2015</li>
+<li>es2015.core</li>
+<li>es2015.collection</li>
+<li>es2015.iterable</li>
+<li>es2015.promise</li>
+<li>es2015.proxy</li>
+<li>es2015.reflect</li>
+<li>es2015.generator</li>
+<li>es2015.symbol</li>
+<li>es2015.symbol.wellknown</li>
+<li>es2016</li>
+<li>es2016.array.include</li>
+<li>es2017</li>
+<li>es2017.object</li>
+<li>es2017.sharedmemory</li>
+<li>scripthost</li>
+</ul>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">tsc --target es5 --lib es5,es2015.promise</code></pre></div>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token property">"compilerOptions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"lib"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"es5"</span><span class="token punctuation">,</span> <span class="token string">"es2015.promise"</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Flag unused declarations with <code class="language-text">--noUnusedParameters</code> and <code class="language-text">--noUnusedLocals</code></h2>
+<p>TypeScript 2.0 has two new flags to help you maintain a clean code base.
+<code class="language-text">--noUnusedParameters</code> flags any unused function or method parameters errors.
+<code class="language-text">--noUnusedLocals</code> flags any unused local (un-exported) declaration like variables, functions, classes, imports, etc…
+Also, unused private members of a class would be flagged as errors under <code class="language-text">--noUnusedLocals</code>.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">import</span> <span class="token constant">B</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> readFile <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./b"</span><span class="token punctuation">;</span>
+<span class="token comment">//     ^ Error: `B` declared but never used</span>
+<span class="token function">readFile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">write</span><span class="token punctuation">(</span><span class="token parameter">message<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span> args<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">//                                 ^^^^  Error: 'arg' declared but never used.</span>
+    <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Parameters declaration with names starting with <code class="language-text">_</code> are exempt from the unused parameter checking.
+e.g.:</p>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">returnNull</span><span class="token punctuation">(</span><span class="token parameter">_a</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// OK</span>
+    <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Module identifiers allow for <code class="language-text">.js</code> extension</h2>
+<p>Before TypeScript 2.0, a module identifier was always assumed to be extension-less;
+for instance, given an import as <code class="language-text">import d from &quot;./moduleA.js&quot;</code>, the compiler looked up the definition of <code class="language-text">&quot;moduleA.js&quot;</code> in <code class="language-text">./moduleA.js.ts</code> or <code class="language-text">./moduleA.js.d.ts</code>.
+This made it hard to use bundling/loading tools like <a href="https://github.com/systemjs/systemjs">SystemJS</a> that expect URI’s in their module identifier.</p>
+<p>With TypeScript 2.0, the compiler will look up definition of <code class="language-text">&quot;moduleA.js&quot;</code> in  <code class="language-text">./moduleA.ts</code> or <code class="language-text">./moduleA.d.t</code>.</p>
+<h2>Support ‘target : es5’ with ‘module: es6’</h2>
+<p>Previously flagged as an invalid flag combination, <code class="language-text">target: es5</code> and ‘module: es6’ is now supported.
+This should facilitate using ES2015-based tree shakers like <a href="https://github.com/rollup/rollup">rollup</a>.</p>
+<h2>Trailing commas in function parameter and argument lists</h2>
+<p>Trailing comma in function parameter and argument lists are now allowed.
+This is an implementation for a <a href="https://jeffmo.github.io/es-trailing-function-commas/">Stage-3 ECMAScript proposal</a> that emits down to valid ES3/ES5/ES6.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span>
+  bar<span class="token punctuation">:</span> Bar<span class="token punctuation">,</span>
+  baz<span class="token punctuation">:</span> Baz<span class="token punctuation">,</span> <span class="token comment">// trailing commas are OK in parameter lists</span>
+<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Implementation...</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">foo</span><span class="token punctuation">(</span>
+  bar<span class="token punctuation">,</span>
+  baz<span class="token punctuation">,</span> <span class="token comment">// and in argument lists</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<h2>New <code class="language-text">--skipLibCheck</code></h2>
+<p>TypeScript 2.0 adds a new <code class="language-text">--skipLibCheck</code> compiler option that causes type checking of declaration files (files with extension <code class="language-text">.d.ts</code>) to be skipped.
+When a program includes large declaration files, the compiler spends a lot of time type checking declarations that are already known to not contain errors, and compile times may be significantly shortened by skipping declaration file type checks.</p>
+<p>Since declarations in one file can affect type checking in other files, some errors may not be detected when <code class="language-text">--skipLibCheck</code> is specified.
+For example, if a non-declaration file augments a type declared in a declaration file, errors may result that are only reported when the declaration file is checked.
+However, in practice such situations are rare.</p>
+<h2>Allow duplicate identifiers across declarations</h2>
+<p>This has been one common source of duplicate definition errors.
+Multiple declaration files defining the same members on interfaces.</p>
+<p>TypeScript 2.0 relaxes this constraint and allows duplicate identifiers across blocks, as long as they have <em>identical</em> types.</p>
+<p>Within the same block duplicate definitions are still disallowed.</p>
+<h5>Example</h5>
+<div class="gatsby-highlight" data-language="ts"><pre class="language-ts"><code class="language-ts"><span class="token keyword">interface</span> <span class="token class-name">Error</span> <span class="token punctuation">{</span>
+    stack<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">interface</span> <span class="token class-name">Error</span> <span class="token punctuation">{</span>
+    code<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    path<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    stack<span class="token operator">?</span><span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>  <span class="token comment">// OK</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>New <code class="language-text">--declarationDir</code></h2>
+<p><code class="language-text">--declarationDir</code> allows for generating declaration files in a different location than JavaScript files.</p>
+<p>{% endraw %}</p></div></div><hr/><ul><li></li><li></li></ul></main></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/docs/handbook/release-notes/typescript-2-0.html";window.webpackCompilationHash="6a315b3eb50283742933";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3354f61dd204e18bf7a1.js"],"component---src-templates-handbook-tsx":["/component---src-templates-handbook-tsx-dd1a17369067343d752e.js"],"component---src-templates-tsconfig-reference-tsx":["/component---src-templates-tsconfig-reference-tsx-087c2538c86ccacdc779.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-f975592c8013dc073af3.js"],"component---src-pages-playground-dev-tsx":["/component---src-pages-playground-dev-tsx-0207688682d961e1ae01.js"]};/*]]>*/</script><script src="/webpack-runtime-4eece4e218629fabe83d.js" async=""></script><script src="/commons-0fc496a32fb311d107ef.js" async=""></script><script src="/component---src-templates-handbook-tsx-dd1a17369067343d752e.js" async=""></script><script src="/app-3354f61dd204e18bf7a1.js" async=""></script></body></html>

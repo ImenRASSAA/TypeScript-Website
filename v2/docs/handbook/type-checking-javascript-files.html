@@ -1,0 +1,570 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/commons.bf8f980cdf0e20e17bba.css">body{font-family:Segoe UI,"Segoe UI Web (West European)",-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif}#top-menu{background-color:#3178c6;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;clear:both;display:flex;justify-content:space-between;height:3rem}#top-menu>.left{display:flex;flex-direction:row}#top-menu>.right{display:flex;flex-direction:row-reverse;justify-self:flex-end}#top-menu .nav{display:inline-block;text-decoration:none}#top-menu .nav ul{padding:0;margin:0}#top-menu .nav-item{font-size:1rem;text-decoration:none;border:1px solid transparent;display:inline-block}#top-menu .nav-item a{display:block;color:#262626;padding:.8rem .5em .7em}</style><meta name="generator" content="Gatsby 2.15.29"/><style>@keyframes css-1{from{opacity:0;}to{opacity:1;}}@keyframes css-2{from{opacity:1;}to{opacity:0;visibility:hidden;}}@keyframes css-3{from{transform:translate3d(-10px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-4{from{transform:translate3d(-20px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-5{from{transform:translate3d(-40px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-6{from{transform:translate3d(-400px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-7{from{transform:translate3d(10px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-8{from{transform:translate3d(20px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-9{from{transform:translate3d(40px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-10{from{transform:translate3d(400px,0,0);}to{transform:translate3d(0,0,0);}}@keyframes css-11{from{transform:translate3d(0,10px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-12{from{transform:translate3d(0,20px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-13{from{transform:translate3d(0,-10px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-14{from{transform:translate3d(0,-20px,0);}to{transform:translate3d(0,0,0);}}@keyframes css-15{from{transform:translate3d(0,0,0);}to{transform:translate3d(10px,0,0);}}@keyframes css-16{from{transform:translate3d(0,0,0);}to{transform:translate3d(20px,0,0);}}@keyframes css-17{from{transform:translate3d(0,0,0);}to{transform:translate3d(40px,0,0);}}@keyframes css-18{from{transform:translate3d(0,0,0);}to{transform:translate3d(400px,0,0);}}@keyframes css-19{from{transform:translate3d(0,0,0);}to{transform:translate3d(-10px,0,0);}}@keyframes css-20{from{transform:translate3d(0,0,0);}to{transform:translate3d(-20px,0,0);}}@keyframes css-21{from{transform:translate3d(0,0,0);}to{transform:translate3d(-40px,0,0);}}@keyframes css-22{from{transform:translate3d(0,0,0);}to{transform:translate3d(-400px,0,0);}}@keyframes css-23{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,-10px,0);}}@keyframes css-24{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,-20px,0);}}@keyframes css-25{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,10px,0);}}@keyframes css-26{from{transform:translate3d(0,0,0);}to{transform:translate3d(0,20px,0);}}@keyframes css-27{from{transform:scale3d(.98,.98,1);}to{transform:scale3d(1,1,1);}}@keyframes css-28{from{transform:scale3d(1,1,1);}to{transform:scale3d(.98,.98,1);}}@keyframes css-29{from{transform:scale3d(1.03,1.03,1);}to{transform:scale3d(1,1,1);}}@keyframes css-30{from{transform:scale3d(1,1,1);}to{transform:scale3d(1.03,1.03,1);}}@keyframes css-31{from{transform:rotateZ(0deg);}to{transform:rotateZ(90deg);}}@keyframes css-32{from{transform:rotateZ(0deg);}to{transform:rotateZ(-90deg);}}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Arabic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Cyrillic)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (East European)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Greek)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Hebrew)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Vietnamese)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI Light'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI SemiLight'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (West European)';src:local('Segoe UI SemiBold'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:''Selawik Web'';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Armenian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-light.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-light.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semilight.woff') format('woff');font-weight:300;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-regular.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}@font-face{font-family:'Segoe UI Web (Georgian)';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semibold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semibold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff') format('woff');font-weight:100;font-style:normal;font-display:swap;}@font-face{font-family:'Leelawadee UI Web';src:url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff2') format('woff2'),url('https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff') format('woff');font-weight:600;font-style:normal;font-display:swap;}@keyframes css-40{0%{transform:translate(0, 0);animation-timing-function:linear;}78.57%{transform:translate(0, 0);animation-timing-function:cubic-bezier(0.62, 0, 0.56, 1);}82.14%{transform:translate(0, -5px);animation-timing-function:cubic-bezier(0.58, 0, 0, 1);}84.88%{transform:translate(0, 9px);animation-timing-function:cubic-bezier(1, 0, 0.56, 1);}88.1%{transform:translate(0, -2px);animation-timing-function:cubic-bezier(0.58, 0, 0.67, 1);}90.12%{transform:translate(0, 0);animation-timing-function:linear;}100%{transform:translate(0, 0);}}@keyframes css-41{0%{transform: scale(0);animation-timing-function:linear;}14.29%{transform:scale(0);animation-timing-function:cubic-bezier(0.84, 0, 0.52, 0.99);}16.67%{transform:scale(1.15);animation-timing-function:cubic-bezier(0.48, -0.01, 0.52, 1.01);}19.05%{transform:scale(0.95);animation-timing-function:cubic-bezier(0.48, 0.02, 0.52, 0.98);}21.43%{transform:scale(1);animation-timing-function:linear;}42.86%{transform:scale(1);animation-timing-function:cubic-bezier(0.48, -0.02, 0.52, 1.02);}45.71%{transform:scale(0.8);animation-timing-function:cubic-bezier(0.48, 0.01, 0.52, 0.99);}50%{transform:scale(1);animation-timing-function:linear;}90.12%{transform:scale(1);animation-timing-function:cubic-bezier(0.48, -0.02, 0.52, 1.02);}92.98%{transform:scale(0.8);animation-timing-function:cubic-bezier(0.48, 0.01, 0.52, 0.99);}97.26%{transform:scale(1);animation-timing-function:linear;}100%{transform:scale(1);}}@keyframes css-42{0%{transform:rotate(0deg);animation-timing-function:linear;}83.33%{transform: rotate(0deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}83.93%{transform:rotate(15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}84.52%{transform:rotate(-15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}85.12%{transform:rotate(15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}85.71%{transform:rotate(-15deg);animation-timing-function:cubic-bezier(0.33, 0, 0.67, 1);}86.31%{transform:rotate(0deg);animation-timing-function:linear;}100%{transform:rotate(0deg);}}@keyframes css-43{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}@keyframes css-44{0%{left:-30%;}100%{left:100%;}}@keyframes css-45{100%{right:-30%;}0%{right:100%;}}@keyframes css-46{0%{transform:translateX(-100%);}100%{transform:translateX(100%);}}@keyframes css-47{100%{transform:translateX(-100%);}0%{transform:translateX(100%);}}@keyframes css-48{0%{opacity:0;animation-timing-function:cubic-bezier(.1,.9,.2,1);transform:scale3d(.90,.90,.90);}100%{opacity:1;transform:scale3d(1,1,1);}}.css-0{font-family:'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-size:20px;font-weight:600;display:inline;color:white;moz-osx-font-smoothing:grayscale;webkit-font-smoothing:antialiased;text-decoration:none;}</style><title data-react-helmet="true"></title><link data-react-helmet="true" rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css"/><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link as="script" rel="preload" href="/app-3354f61dd204e18bf7a1.js"/><link as="script" rel="preload" href="/component---src-templates-handbook-tsx-dd1a17369067343d752e.js"/><link as="script" rel="preload" href="/commons-0fc496a32fb311d107ef.js"/><link as="script" rel="preload" href="/webpack-runtime-4eece4e218629fabe83d.js"/><link as="fetch" rel="preload" href="/page-data/docs/handbook/type-checking-javascript-files.html/page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div><header dir="ltr"><div id="top-menu"><div class="left"><a href="/" aria-label="TypeScript Home Page" style="text-decoration:none"><svg style="margin-left:1rem;margin-top:0.55rem;margin-right:1rem" fill="none" height="26" viewBox="0 0 27 26" width="27" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m.98608 0h24.32332c.5446 0 .9861.436522.9861.975v24.05c0 .5385-.4415.975-.9861.975h-24.32332c-.544597 0-.98608-.4365-.98608-.975v-24.05c0-.538478.441483-.975.98608-.975zm13.63142 13.8324v-2.1324h-9.35841v2.1324h3.34111v9.4946h2.6598v-9.4946zm1.0604 9.2439c.4289.2162.9362.3784 1.5218.4865.5857.1081 1.2029.1622 1.8518.1622.6324 0 1.2331-.0595 1.8023-.1784.5691-.1189 1.0681-.3149 1.497-.5879s.7685-.6297 1.0187-1.0703.3753-.9852.3753-1.6339c0-.4703-.0715-.8824-.2145-1.2365-.1429-.3541-.3491-.669-.6186-.9447-.2694-.2757-.5925-.523-.9692-.7419s-.8014-.4257-1.2743-.6203c-.3465-.1406-.6572-.2771-.9321-.4095-.275-.1324-.5087-.2676-.7011-.4054-.1925-.1379-.3409-.2838-.4454-.4379-.1045-.154-.1567-.3284-.1567-.523 0-.1784.0467-.3392.1402-.4824.0935-.1433.2254-.2663.3959-.369s.3794-.1824.6269-.2392c.2474-.0567.5224-.0851.8248-.0851.22 0 .4523.0162.697.0486.2447.0325.4908.0825.7382.15.2475.0676.4881.1527.7218.2555.2337.1027.4495.2216.6475.3567v-2.4244c-.4015-.1514-.84-.2636-1.3157-.3365-.4756-.073-1.0214-.1095-1.6373-.1095-.6268 0-1.2207.0662-1.7816.1987-.5609.1324-1.0544.3392-1.4806.6203s-.763.6392-1.0104 1.0743c-.2475.4352-.3712.9555-.3712 1.5609 0 .7731.2268 1.4326.6805 1.9785.4537.546 1.1424 1.0082 2.0662 1.3866.363.146.7011.2892 1.0146.4298.3134.1405.5842.2865.8124.4378.2282.1514.4083.3162.5403.4946s.198.3811.198.6082c0 .1676-.0413.323-.1238.4662-.0825.1433-.2076.2676-.3753.373s-.3766.1879-.6268.2473c-.2502.0595-.5431.0892-.8785.0892-.5719 0-1.1383-.0986-1.6992-.2959-.5608-.1973-1.0805-.4933-1.5589-.8879z" fill="#fff" fill-rule="evenodd"></path></svg><span class="css-0">TypeScript</span></a><nav><ul><li class="nav-item"><a style="text-decoration:none;color:white" href="/docs">Documentation</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/index.html#download-links">Download</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/community">Connect</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/play">Playground</a></li></ul></nav></div><div class="right"><nav><ul><li class="nav-item"><a style="text-decoration:none;color:white" href="/index.html#download-links">SEARCH</a></li><li class="nav-item"><a style="text-decoration:none;color:white" href="/community"><svg fill="none" height="12" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" fill="#fff" r="6"></circle></svg></a></li><li class="nav-item"><a style="text-decoration:none;color:white;font-size:1rem" href="/play">en</a></li></ul></nav></div></div></header><main><div class="ms-depth-4" style="background-color:white;max-width:960px;margin:1rem auto;padding:2rem"><div><p>{% raw %}TypeScript 2.3 and later support type-checking and reporting errors in <code class="language-text">.js</code> files with <code class="language-text">--checkJs</code>.</p>
+<p>You can skip checking some files by adding a <code class="language-text">// @ts-nocheck</code> comment to them; conversely, you can choose to check only a few <code class="language-text">.js</code> files by adding a <code class="language-text">// @ts-check</code> comment to them without setting <code class="language-text">--checkJs</code>.
+You can also ignore errors on specific lines by adding <code class="language-text">// @ts-ignore</code> on the preceding line.
+Note that if you have a <code class="language-text">tsconfig.json</code>, JS checking will respect strict flags like <code class="language-text">noImplicitAny</code>, <code class="language-text">strictNullChecks</code>, etc.
+However, because of the relative looseness of JS checking, combining strict flags with it may be surprising.</p>
+<p>Here are some notable differences on how checking works in <code class="language-text">.js</code> files compared to <code class="language-text">.ts</code> files:</p>
+<h2>JSDoc types are used for type information</h2>
+<p>In a <code class="language-text">.js</code> file, types can often be inferred just like in <code class="language-text">.ts</code> files.
+Likewise, when types can’t be inferred, they can be specified using JSDoc the same way that type annotations are used in a <code class="language-text">.ts</code> file.
+Just like Typescript, <code class="language-text">--noImplicitAny</code> will give you errors on the places that the compiler could not infer a type.
+(With the exception of open-ended object literals; see below for details.)</p>
+<p>JSDoc annotations adorning a declaration will be used to set the type of that declaration. For example:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @type {number} */</span>
+<span class="token keyword">var</span> x<span class="token punctuation">;</span>
+
+x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>      <span class="token comment">// OK</span>
+x <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>  <span class="token comment">// Error: boolean is not assignable to number</span></code></pre></div>
+<p>You can find the full list of supported JSDoc patterns <a href="#supported-jsdoc">below</a>.</p>
+<h2>Properties are inferred from assignments in class bodies</h2>
+<p>ES2015 does not have a means for declaring properties on classes. Properties are dynamically assigned, just like object literals.</p>
+<p>In a <code class="language-text">.js</code> file, the compiler infers properties from property assignments inside the class body.
+The type of a property is the type given in the constructor, unless it’s not defined there, or the type in the constructor is undefined or null.
+In that case, the type is the union of the types of all the right-hand values in these assignments.
+Properties defined in the constructor are always assumed to exist, whereas ones defined just in methods, getters, or setters are considered optional.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">C</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>constructorOnly <span class="token operator">=</span> <span class="token number">0</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>constructorUnknown <span class="token operator">=</span> <span class="token keyword">undefined</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">method</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>constructorOnly <span class="token operator">=</span> <span class="token boolean">false</span> <span class="token comment">// error, constructorOnly is a number</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>constructorUnknown <span class="token operator">=</span> <span class="token string">"plunkbat"</span> <span class="token comment">// ok, constructorUnknown is string | undefined</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>methodOnly <span class="token operator">=</span> <span class="token string">'ok'</span>  <span class="token comment">// ok, but methodOnly could also be undefined</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">method2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>methodOnly <span class="token operator">=</span> <span class="token boolean">true</span>  <span class="token comment">// also, ok, methodOnly's type is string | boolean | undefined</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>If properties are never set in the class body, they are considered unknown.
+If your class has properties that are only read from, add and then annotate a declaration in the constructor with JSDoc to specify the type.
+You don’t even have to give a value if it will be initialised later:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">C</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">/** @type {number | undefined} */</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>prop <span class="token operator">=</span> <span class="token keyword">undefined</span><span class="token punctuation">;</span>
+        <span class="token comment">/** @type {number | undefined} */</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>count<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> c <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">C</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+c<span class="token punctuation">.</span>prop <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>          <span class="token comment">// OK</span>
+c<span class="token punctuation">.</span>count <span class="token operator">=</span> <span class="token string">"string"</span><span class="token punctuation">;</span>  <span class="token comment">// Error: string is not assignable to number|undefined</span></code></pre></div>
+<h2>Constructor functions are equivalent to classes</h2>
+<p>Before ES2015, Javascript used constructor functions instead of classes.
+The compiler supports this pattern and understands constructor functions as equivalent to ES2015 classes.
+The property inference rules described above work exactly the same way.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token constant">C</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>constructorOnly <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>constructorUnknown <span class="token operator">=</span> <span class="token keyword">undefined</span>
+<span class="token punctuation">}</span>
+<span class="token class-name">C</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">method</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>constructorOnly <span class="token operator">=</span> <span class="token boolean">false</span> <span class="token comment">// error</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>constructorUnknown <span class="token operator">=</span> <span class="token string">"plunkbat"</span> <span class="token comment">// OK, the type is string | undefined</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>CommonJS modules are supported</h2>
+<p>In a <code class="language-text">.js</code> file, Typescript understands the CommonJS module format.
+Assignments to <code class="language-text">exports</code> and <code class="language-text">module.exports</code> are recognized as export declarations.
+Similarly, <code class="language-text">require</code> function calls are recognized as module imports. For example:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// same as `import module "fs"`</span>
+<span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"fs"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// same as `export function readFile`</span>
+module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span><span class="token function-variable function">readFile</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">f</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>The module support in Javascript is much more syntactically forgiving than Typescript’s module support.
+Most combinations of assignments and declarations are supported.</p>
+<h2>Classes, functions, and object literals are namespaces</h2>
+<p>Classes are namespaces in <code class="language-text">.js</code> files.
+This can be used to nest classes, for example:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">C</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+<span class="token constant">C</span><span class="token punctuation">.</span><span class="token constant">D</span> <span class="token operator">=</span> <span class="token keyword">class</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>And, for pre-ES2015 code, it can be used to simulate static methods:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">Outer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">2</span>
+<span class="token punctuation">}</span>
+Outer<span class="token punctuation">.</span><span class="token function-variable function">Inner</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>yy <span class="token operator">=</span> <span class="token number">2</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>It can also be used to create simple namespaces:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> ns <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+ns<span class="token punctuation">.</span><span class="token constant">C</span> <span class="token operator">=</span> <span class="token keyword">class</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+ns<span class="token punctuation">.</span><span class="token function-variable function">func</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Other variants are allowed as well:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// IIFE</span>
+<span class="token keyword">var</span> ns <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">n</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> n <span class="token operator">||</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ns<span class="token punctuation">.</span><span class="token constant">CONST</span> <span class="token operator">=</span> <span class="token number">1</span>
+
+<span class="token comment">// defaulting to global</span>
+<span class="token keyword">var</span> assign <span class="token operator">=</span> assign <span class="token operator">||</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// code goes here</span>
+<span class="token punctuation">}</span>
+assign<span class="token punctuation">.</span>extra <span class="token operator">=</span> <span class="token number">1</span></code></pre></div>
+<h2>Object literals are open-ended</h2>
+<p>In a <code class="language-text">.ts</code> file, an object literal that initializes a variable declaration gives its type to the declaration.
+No new members can be added that were not specified in the original literal.
+This rule is relaxed in a <code class="language-text">.js</code> file; object literals have an open-ended type (an index signature) that allows adding and looking up properties that were not defined originally.
+For instance:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span> a<span class="token punctuation">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span>b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>  <span class="token comment">// Allowed</span></code></pre></div>
+<p>Object literals behave as if they have an index signature <code class="language-text">[x:string]: any</code> that allows them to be treated as open maps instead of closed objects.</p>
+<p>Like other special JS checking behaviors, this behavior can be changed by specifying a JSDoc type for the variable. For example:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @type {{a: number}} */</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span> a<span class="token punctuation">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span>b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>  <span class="token comment">// Error, type {a: number} does not have property b</span></code></pre></div>
+<h2>null, undefined, and empty array initializers are of type any or any[]</h2>
+<p>Any variable, parameter or property that is initialized with null or undefined will have type any, even if strict null checks is turned on.
+Any variable, parameter or property that is initialized with [] will have type any[], even if strict null checks is turned on.
+The only exception is for properties that have multiple initializers as described above.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">Foo</span><span class="token punctuation">(</span><span class="token parameter">i <span class="token operator">=</span> <span class="token keyword">null</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>i<span class="token punctuation">)</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> j <span class="token operator">=</span> <span class="token keyword">undefined</span><span class="token punctuation">;</span>
+    j <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>l <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">var</span> foo <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+foo<span class="token punctuation">.</span>l<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>foo<span class="token punctuation">.</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+foo<span class="token punctuation">.</span>l<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">"end"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Function parameters are optional by default</h2>
+<p>Since there is no way to specify optionality on parameters in pre-ES2015 Javascript, all function parameters in <code class="language-text">.js</code> file are considered optional.
+Calls with fewer arguments than the declared number of parameters are allowed.</p>
+<p>It is important to note that it is an error to call a function with too many arguments.</p>
+<p>For instance:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">bar</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a <span class="token operator">+</span> <span class="token string">" "</span> <span class="token operator">+</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">bar</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// OK, second argument considered optional</span>
+<span class="token function">bar</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">bar</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Error, too many arguments</span></code></pre></div>
+<p>JSDoc annotated functions are excluded from this rule.
+Use JSDoc optional parameter syntax to express optionality. e.g.:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @param {string} [somebody] - Somebody's name.
+ */</span>
+<span class="token keyword">function</span> <span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token parameter">somebody</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>somebody<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        somebody <span class="token operator">=</span> <span class="token string">'John Doe'</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Hello '</span> <span class="token operator">+</span> somebody<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Var-args parameter declaration inferred from use of <code class="language-text">arguments</code></h2>
+<p>A function whose body has a reference to the <code class="language-text">arguments</code> reference is implicitly considered to have a var-arg parameter (i.e. <code class="language-text">(...arg: any[]) =&gt; any</code>). Use JSDoc var-arg syntax to specify the type of the arguments.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @param {...number} args */</span>
+<span class="token keyword">function</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token comment">/* numbers */</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> total <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arguments<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      total <span class="token operator">+=</span> arguments<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> total
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Unspecified type parameters default to <code class="language-text">any</code></h2>
+<p>Since there is no natural syntax for specifying generic type parameters in Javascript, an unspecified type parameter defaults to <code class="language-text">any</code>.</p>
+<h3>In extends clause</h3>
+<p>For instance, <code class="language-text">React.Component</code> is defined to have two type parameters, <code class="language-text">Props</code> and <code class="language-text">State</code>.
+In a <code class="language-text">.js</code> file, there is no legal way to specify these in the extends clause. By default the type arguments will be <code class="language-text">any</code>:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyComponent</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>b<span class="token punctuation">;</span> <span class="token comment">// Allowed, since this.props is of type any</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Use JSDoc <code class="language-text">@augments</code> to specify the types explicitly. for instance:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * @augments {Component&lt;{a: number}, State>}
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">MyComponent</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>b<span class="token punctuation">;</span> <span class="token comment">// Error: b does not exist on {a:number}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3>In JSDoc references</h3>
+<p>An unspecified type argument in JSDoc defaults to any:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @type{Array} */</span>
+<span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+x<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// OK</span>
+x<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">"string"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// OK, x is of type Array&lt;any></span>
+
+<span class="token comment">/** @type{Array.&lt;number>} */</span>
+<span class="token keyword">var</span> y <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+y<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// OK</span>
+y<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">"string"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Error, string is not assignable to number</span></code></pre></div>
+<h3>In function calls</h3>
+<p>A call to a generic function uses the arguments to infer the type parameters. Sometimes this process fails to infer any types, mainly because of lack of inference sources; in these cases, the type parameters will default to <code class="language-text">any</code>. For example:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> p <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token function">reject</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+p<span class="token punctuation">;</span> <span class="token comment">// Promise&lt;any>;</span></code></pre></div>
+<h1>Supported JSDoc</h1>
+<p>The list below outlines which constructs are currently supported when using JSDoc annotations to provide type information in JavaScript files.</p>
+<p>Note any tags which are not explicitly listed below (such as <code class="language-text">@async</code>) are not yet supported.</p>
+<ul>
+<li><code class="language-text">@type</code></li>
+<li><code class="language-text">@param</code> (or <code class="language-text">@arg</code> or <code class="language-text">@argument</code>)</li>
+<li><code class="language-text">@returns</code> (or <code class="language-text">@return</code>)</li>
+<li><code class="language-text">@typedef</code></li>
+<li><code class="language-text">@callback</code></li>
+<li><code class="language-text">@template</code></li>
+<li><code class="language-text">@class</code> (or <code class="language-text">@constructor</code>)</li>
+<li><code class="language-text">@this</code></li>
+<li><code class="language-text">@extends</code> (or <code class="language-text">@augments</code>)</li>
+<li><code class="language-text">@enum</code></li>
+</ul>
+<p>The meaning is usually the same, or a superset, of the meaning of the tag given at usejsdoc.org.
+The code below describes the differences and gives some example usage of each tag.</p>
+<h2><code class="language-text">@type</code></h2>
+<p>You can use the “@type” tag and reference a type name (either primitive, defined in a TypeScript declaration, or in a JSDoc “@typedef” tag).
+You can use any Typescript type, and most JSDoc types.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {string}
+ */</span>
+<span class="token keyword">var</span> s<span class="token punctuation">;</span>
+
+<span class="token comment">/** @type {Window} */</span>
+<span class="token keyword">var</span> win<span class="token punctuation">;</span>
+
+<span class="token comment">/** @type {PromiseLike&lt;string>} */</span>
+<span class="token keyword">var</span> promisedString<span class="token punctuation">;</span>
+
+<span class="token comment">// You can specify an HTML Element with DOM properties</span>
+<span class="token comment">/** @type {HTMLElement} */</span>
+<span class="token keyword">var</span> myElement <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span>selector<span class="token punctuation">)</span><span class="token punctuation">;</span>
+element<span class="token punctuation">.</span>dataset<span class="token punctuation">.</span>myData <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span></code></pre></div>
+<p><code class="language-text">@type</code> can specify a union type — for example, something can be either a string or a boolean.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {(string | boolean)}
+ */</span>
+<span class="token keyword">var</span> sb<span class="token punctuation">;</span></code></pre></div>
+<p>Note that parentheses are optional for union types.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {string | boolean}
+ */</span>
+<span class="token keyword">var</span> sb<span class="token punctuation">;</span></code></pre></div>
+<p>You can specify array types using a variety of syntaxes:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @type {number[]} */</span>
+<span class="token keyword">var</span> ns<span class="token punctuation">;</span>
+<span class="token comment">/** @type {Array.&lt;number>} */</span>
+<span class="token keyword">var</span> nds<span class="token punctuation">;</span>
+<span class="token comment">/** @type {Array&lt;number>} */</span>
+<span class="token keyword">var</span> nas<span class="token punctuation">;</span></code></pre></div>
+<p>You can also specify object literal types.
+For example, an object with properties ‘a’ (string) and ‘b’ (number) uses the following syntax:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @type {{ a: string, b: number }} */</span>
+<span class="token keyword">var</span> var9<span class="token punctuation">;</span></code></pre></div>
+<p>You can specify map-like and array-like objects using string and number index signatures, using either standard JSDoc syntax or Typescript syntax.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * A map-like object that maps arbitrary `string` properties to `number`s.
+ *
+ * @type {Object.&lt;string, number>}
+ */</span>
+<span class="token keyword">var</span> stringToNumber<span class="token punctuation">;</span>
+
+<span class="token comment">/** @type {Object.&lt;number, object>} */</span>
+<span class="token keyword">var</span> arrayLike<span class="token punctuation">;</span></code></pre></div>
+<p>The preceding two types are equivalent to the Typescript types <code class="language-text">{ [x: string]: number }</code> and <code class="language-text">{ [x: number]: any }</code>. The compiler understands both syntaxes.</p>
+<p>You can specify function types using either Typescript or Closure syntax:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @type {function(string, boolean): number} Closure syntax */</span>
+<span class="token keyword">var</span> sbn<span class="token punctuation">;</span>
+<span class="token comment">/** @type {(s: string, b: boolean) => number} Typescript syntax */</span>
+<span class="token keyword">var</span> sbn2<span class="token punctuation">;</span></code></pre></div>
+<p>Or you can just use the unspecified <code class="language-text">Function</code> type:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @type {Function} */</span>
+<span class="token keyword">var</span> fn7<span class="token punctuation">;</span>
+<span class="token comment">/** @type {function} */</span>
+<span class="token keyword">var</span> fn6<span class="token punctuation">;</span></code></pre></div>
+<p>Other types from Closure also work:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {*} - can be 'any' type
+ */</span>
+<span class="token keyword">var</span> star<span class="token punctuation">;</span>
+<span class="token comment">/**
+ * @type {?} - unknown type (same as 'any')
+ */</span>
+<span class="token keyword">var</span> question<span class="token punctuation">;</span></code></pre></div>
+<h3>Casts</h3>
+<p>Typescript borrows cast syntax from Closure.
+This lets you cast types to other types by adding a <code class="language-text">@type</code> tag before any parenthesized expression.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {number | string}
+ */</span>
+<span class="token keyword">var</span> numberOrString <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0.5</span> <span class="token operator">?</span> <span class="token string">"hello"</span> <span class="token punctuation">:</span> <span class="token number">100</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> typeAssertedNumber <span class="token operator">=</span> <span class="token comment">/** @type {number} */</span> <span class="token punctuation">(</span>numberOrString<span class="token punctuation">)</span></code></pre></div>
+<h3>Import types</h3>
+<p>You can also import declarations from other files using import types.
+This syntax is Typescript-specific and differs from the JSDoc standard:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @param p { import("./a").Pet }
+ */</span>
+<span class="token keyword">function</span> <span class="token function">walk</span><span class="token punctuation">(</span><span class="token parameter">p</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Walking </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>p<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">...</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>import types can also be used in type alias declarations:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @typedef { import("./a").Pet } Pet
+ */</span>
+
+<span class="token comment">/**
+ * @type {Pet}
+ */</span>
+<span class="token keyword">var</span> myPet<span class="token punctuation">;</span>
+myPet<span class="token punctuation">.</span>name<span class="token punctuation">;</span></code></pre></div>
+<p>import types can be used to get the type of a value from a module if you don’t know the type, or if it has a large type that is annoying to type:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {typeof import("./a").x }
+ */</span>
+<span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"./a"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>x<span class="token punctuation">;</span></code></pre></div>
+<h2><code class="language-text">@param</code> and <code class="language-text">@returns</code></h2>
+<p><code class="language-text">@param</code> uses the same type syntax as <code class="language-text">@type</code>, but adds a parameter name.
+The parameter may also be declared optional by surrounding the name with square brackets:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// Parameters may be declared in a variety of syntactic forms</span>
+<span class="token comment">/**
+ * @param {string}  p1 - A string param.
+ * @param {string=} p2 - An optional param (Closure syntax)
+ * @param {string} [p3] - Another optional param (JSDoc syntax).
+ * @param {string} [p4="test"] - An optional param with a default value
+ * @return {string} This is the result
+ */</span>
+<span class="token keyword">function</span> <span class="token function">stringsStringStrings</span><span class="token punctuation">(</span><span class="token parameter">p1<span class="token punctuation">,</span> p2<span class="token punctuation">,</span> p3<span class="token punctuation">,</span> p4</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token comment">// TODO</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Likewise, for the return type of a function:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @return {PromiseLike&lt;string>}
+ */</span>
+<span class="token keyword">function</span> <span class="token function">ps</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token comment">/**
+ * @returns {{ a: string, b: number }} - May use '@returns' as well as '@return'
+ */</span>
+<span class="token keyword">function</span> <span class="token function">ab</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span></code></pre></div>
+<h2><code class="language-text">@typedef</code>, <code class="language-text">@callback</code>, and <code class="language-text">@param</code></h2>
+<p><code class="language-text">@typedef</code> may be used to define complex types.
+Similar syntax works with <code class="language-text">@param</code>.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @typedef {Object} SpecialType - creates a new type named 'SpecialType'
+ * @property {string} prop1 - a string property of SpecialType
+ * @property {number} prop2 - a number property of SpecialType
+ * @property {number=} prop3 - an optional number property of SpecialType
+ * @prop {number} [prop4] - an optional number property of SpecialType
+ * @prop {number} [prop5=42] - an optional number property of SpecialType with default
+ */</span>
+<span class="token comment">/** @type {SpecialType} */</span>
+<span class="token keyword">var</span> specialTypeObject<span class="token punctuation">;</span></code></pre></div>
+<p>You can use either <code class="language-text">object</code> or <code class="language-text">Object</code> on the first line.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @typedef {object} SpecialType1 - creates a new type named 'SpecialType1'
+ * @property {string} prop1 - a string property of SpecialType1
+ * @property {number} prop2 - a number property of SpecialType1
+ * @property {number=} prop3 - an optional number property of SpecialType1
+ */</span>
+<span class="token comment">/** @type {SpecialType1} */</span>
+<span class="token keyword">var</span> specialTypeObject1<span class="token punctuation">;</span></code></pre></div>
+<p><code class="language-text">@param</code> allows a similar syntax for one-off type specifications.
+Note that the nested property names must be prefixed with the name of the parameter:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @param {Object} options - The shape is the same as SpecialType above
+ * @param {string} options.prop1
+ * @param {number} options.prop2
+ * @param {number=} options.prop3
+ * @param {number} [options.prop4]
+ * @param {number} [options.prop5=42]
+ */</span>
+<span class="token keyword">function</span> <span class="token function">special</span><span class="token punctuation">(</span><span class="token parameter">options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>options<span class="token punctuation">.</span>prop4 <span class="token operator">||</span> <span class="token number">1001</span><span class="token punctuation">)</span> <span class="token operator">+</span> options<span class="token punctuation">.</span>prop5<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><code class="language-text">@callback</code> is similar to <code class="language-text">@typedef</code>, but it specifies a function type instead of an object type:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @callback Predicate
+ * @param {string} data
+ * @param {number} [index]
+ * @returns {boolean}
+ */</span>
+<span class="token comment">/** @type {Predicate} */</span>
+<span class="token keyword">const</span> <span class="token function-variable function">ok</span> <span class="token operator">=</span> <span class="token parameter">s</span> <span class="token operator">=></span> <span class="token operator">!</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span>length <span class="token operator">%</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>Of course, any of these types can be declared using Typescript syntax in a single-line <code class="language-text">@typedef</code>:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @typedef {{ prop1: string, prop2: string, prop3?: number }} SpecialType */</span>
+<span class="token comment">/** @typedef {(data: string, index?: number) => boolean} Predicate */</span></code></pre></div>
+<h2><code class="language-text">@template</code></h2>
+<p>You can declare generic types with the <code class="language-text">@template</code> tag:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @template T
+ * @param {T} x - A generic parameter that flows through to the return type
+ * @return {T}
+ */</span>
+<span class="token keyword">function</span> <span class="token function">id</span><span class="token punctuation">(</span><span class="token parameter">x</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token keyword">return</span> x <span class="token punctuation">}</span></code></pre></div>
+<p>Use comma or multiple tags to declare multiple type parameters:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @template T,U,V
+ * @template W,X
+ */</span></code></pre></div>
+<p>You can also specify a type constraint before the type parameter name.
+Only the first type parameter in a list is constrained:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @template {string} K - K must be a string or string literal
+ * @template {{ serious(): string }} Seriousalizable - must have a serious method
+ * @param {K} key
+ * @param {Seriousalizable} object
+ */</span>
+<span class="token keyword">function</span> <span class="token function">seriousalize</span><span class="token punctuation">(</span><span class="token parameter">key<span class="token punctuation">,</span> object</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ????</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2><code class="language-text">@constructor</code></h2>
+<p>The compiler infers constructor functions based on this-property assignments, but you can make checking stricter and suggestions better if you add a <code class="language-text">@constructor</code> tag:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @constructor
+ * @param {number} data
+ */</span>
+<span class="token keyword">function</span> <span class="token constant">C</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>size <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">initialize</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Should error, initializer expects a string</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/**
+ * @param {string} s
+ */</span>
+<span class="token class-name">C</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">initialize</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">s</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>size <span class="token operator">=</span> s<span class="token punctuation">.</span>length
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">C</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> result <span class="token operator">=</span> <span class="token constant">C</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// C should only be called with new</span></code></pre></div>
+<p>With <code class="language-text">@constructor</code>, <code class="language-text">this</code> is checked inside the constructor function <code class="language-text">C</code>, so you will get suggestions for the <code class="language-text">initialize</code> method and an error if you pass it a number. You will also get an error if you call <code class="language-text">C</code> instead of constructing it.</p>
+<p>Unfortunately, this means that constructor functions that are also callable cannot use <code class="language-text">@constructor</code>.</p>
+<h2><code class="language-text">@this</code></h2>
+<p>The compiler can usually figure out the type of <code class="language-text">this</code> when it has some context to work with. When it doesn’t, you can explicitly specify the type of <code class="language-text">this</code> with <code class="language-text">@this</code>:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @this {HTMLElement}
+ * @param {*} e
+ */</span>
+<span class="token keyword">function</span> <span class="token function">callbackForLater</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>clientHeight <span class="token operator">=</span> <span class="token function">parseInt</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token comment">// should be fine!</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2><code class="language-text">@extends</code></h2>
+<p>When Javascript classes extend a generic base class, there is nowhere to specify what the type parameter should be. The <code class="language-text">@extends</code> tag provides a place for that type parameter:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @template T
+ * @extends {Set&lt;T>}
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">SortableSet</span> <span class="token keyword">extends</span> <span class="token class-name">Set</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Note that <code class="language-text">@extends</code> only works with classes. Currently, there is no way for a constructor function extend a class.</p>
+<h2><code class="language-text">@enum</code></h2>
+<p>The <code class="language-text">@enum</code> tag allows you to create an object literal whose members are all of a specified type. Unlike most object literals in Javascript, it does not allow other members.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @enum {number} */</span>
+<span class="token keyword">const</span> JSDocState <span class="token operator">=</span> <span class="token punctuation">{</span>
+  BeginningOfLine<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  SawAsterisk<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  SavingComments<span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Note that <code class="language-text">@enum</code> is quite different from, and much simpler than, Typescript’s <code class="language-text">enum</code>. However, unlike Typescript’s enums, <code class="language-text">@enum</code> can have any type:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/** @enum {function(number): number} */</span>
+<span class="token keyword">const</span> Math <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">add1</span><span class="token punctuation">:</span> <span class="token parameter">n</span> <span class="token operator">=></span> n <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">id</span><span class="token punctuation">:</span> <span class="token parameter">n</span> <span class="token operator">=></span> <span class="token operator">-</span>n<span class="token punctuation">,</span>
+  <span class="token function-variable function">sub1</span><span class="token punctuation">:</span> <span class="token parameter">n</span> <span class="token operator">=></span> n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>More examples</h2>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> someObj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">/**
+   * @param {string} param1 - Docs on property assignments work
+   */</span>
+  <span class="token function-variable function">x</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">param1</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * As do docs on variable assignments
+ * @return {Window}
+ */</span>
+<span class="token keyword">let</span> <span class="token function-variable function">someFunc</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * And class methods
+ * @param {string} greeting The greeting to use
+ */</span>
+<span class="token class-name">Foo</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">sayHi</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">greeting</span><span class="token punctuation">)</span> <span class="token operator">=></span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"Hi!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * And arrow functions expressions
+ * @param {number} x - A multiplier
+ */</span>
+<span class="token keyword">let</span> <span class="token function-variable function">myArrow</span> <span class="token operator">=</span> <span class="token parameter">x</span> <span class="token operator">=></span> x <span class="token operator">*</span> x<span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * Which means it works for stateless function components in JSX too
+ * @param {{a: string, b: number}} test - Some param
+ */</span>
+<span class="token keyword">var</span> <span class="token function-variable function">fc</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">test</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token operator">&lt;</span>div<span class="token operator">></span><span class="token punctuation">{</span>test<span class="token punctuation">.</span>a<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * A parameter can be a class constructor, using Closure syntax.
+ *
+ * @param {{new(...args: any[]): object}} C - The class to register
+ */</span>
+<span class="token keyword">function</span> <span class="token function">registerClass</span><span class="token punctuation">(</span><span class="token parameter"><span class="token constant">C</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token comment">/**
+ * @param {...string} p1 - A 'rest' arg (array) of strings. (treated as 'any')
+ */</span>
+<span class="token keyword">function</span> <span class="token function">fn10</span><span class="token punctuation">(</span><span class="token parameter">p1</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token comment">/**
+ * @param {...string} p1 - A 'rest' arg (array) of strings. (treated as 'any')
+ */</span>
+<span class="token keyword">function</span> <span class="token function">fn9</span><span class="token punctuation">(</span><span class="token parameter">p1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> p1<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2>Patterns that are known NOT to be supported</h2>
+<p>Referring to objects in the value space as types doesn’t work unless the object also creates a type, like a constructor function.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">aNormalFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+<span class="token comment">/**
+ * @type {aNormalFunction}
+ */</span>
+<span class="token keyword">var</span> wrong<span class="token punctuation">;</span>
+<span class="token comment">/**
+ * Use 'typeof' instead:
+ * @type {typeof aNormalFunction}
+ */</span>
+<span class="token keyword">var</span> right<span class="token punctuation">;</span></code></pre></div>
+<p>Postfix equals on a property type in an object literal type doesn’t specify an optional property:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {{ a: string, b: number= }}
+ */</span>
+<span class="token keyword">var</span> wrong<span class="token punctuation">;</span>
+<span class="token comment">/**
+ * Use postfix question on the property name instead:
+ * @type {{ a: string, b?: number }}
+ */</span>
+<span class="token keyword">var</span> right<span class="token punctuation">;</span></code></pre></div>
+<p>Nullable types only have meaning if <code class="language-text">strictNullChecks</code> is on:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {?number}
+ * With strictNullChecks: true -- number | null
+ * With strictNullChecks: off  -- number
+ */</span>
+<span class="token keyword">var</span> nullable<span class="token punctuation">;</span></code></pre></div>
+<p>Non-nullable types have no meaning and are treated just as their original type:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">/**
+ * @type {!number}
+ * Just has type number
+ */</span>
+<span class="token keyword">var</span> normal<span class="token punctuation">;</span></code></pre></div>
+<p>Unlike JSDoc’s type system, Typescript only allows you to mark types as containing null or not.
+There is no explicit non-nullability — if strictNullChecks is on, then <code class="language-text">number</code> is not nullable.
+If it is off, then <code class="language-text">number</code> is nullable.</p>
+<p>{% endraw %}</p></div></div><hr/><ul><li></li><li></li></ul></main></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/docs/handbook/type-checking-javascript-files.html";window.webpackCompilationHash="6a315b3eb50283742933";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3354f61dd204e18bf7a1.js"],"component---src-templates-handbook-tsx":["/component---src-templates-handbook-tsx-dd1a17369067343d752e.js"],"component---src-templates-tsconfig-reference-tsx":["/component---src-templates-tsconfig-reference-tsx-087c2538c86ccacdc779.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-f975592c8013dc073af3.js"],"component---src-pages-playground-dev-tsx":["/component---src-pages-playground-dev-tsx-0207688682d961e1ae01.js"]};/*]]>*/</script><script src="/webpack-runtime-4eece4e218629fabe83d.js" async=""></script><script src="/commons-0fc496a32fb311d107ef.js" async=""></script><script src="/component---src-templates-handbook-tsx-dd1a17369067343d752e.js" async=""></script><script src="/app-3354f61dd204e18bf7a1.js" async=""></script></body></html>
